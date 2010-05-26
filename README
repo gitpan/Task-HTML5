@@ -1,0 +1,29 @@
+NAME
+    Task::HTML5 - install modules for handling HTML5
+
+VERSION
+    0.001
+
+DESCRIPTION
+    This Task installs the following:
+
+    *   HTML::HTML5::Parser
+
+    *   HTML::HTML5::Sanity
+
+    *   HTML::HTML5::Writer
+
+    *   XML::LibXML
+
+SEE ALSO
+    Task.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT
+    Copyright 2010 Toby Inkster
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
