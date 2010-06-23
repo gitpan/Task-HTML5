@@ -22,3 +22,6 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 
 lib/Task/HTML5.pm
+
+t/00modules.t
+

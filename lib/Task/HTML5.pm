@@ -1,14 +1,20 @@
 package Task::HTML5;
-our $VERSION = '0.001';
+
+use 5.008;
+
+our $VERSION = '0.100';
+
 1;
+
 __END__
+
 =head1 NAME
 
 Task::HTML5 - install modules for handling HTML5
 
 =head1 VERSION
 
-0.001
+0.100
 
 =head1 DESCRIPTION
 

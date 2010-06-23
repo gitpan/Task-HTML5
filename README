@@ -2,7 +2,7 @@ NAME
     Task::HTML5 - install modules for handling HTML5
 
 VERSION
-    0.001
+    0.100
 
 DESCRIPTION
     This Task installs the following:

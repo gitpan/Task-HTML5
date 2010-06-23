@@ -14,9 +14,9 @@ readme_from         $fn;
 author              'Toby Inkster <tobyink@cpan.org>';
 license             'perl';
 
-requires 'HTML::HTML5::Parser' => '0.04';
-requires 'HTML::HTML5::Sanity' => '0.04';
-requires 'HTML::HTML5::Writer' => '0.04';
+requires 'HTML::HTML5::Parser' => '0.100';
+requires 'HTML::HTML5::Sanity' => '0.100';
+requires 'HTML::HTML5::Writer' => '0.100';
 requires 'XML::LibXML'         => '1.60'; 
 
 resources(
