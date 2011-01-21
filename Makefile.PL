@@ -14,10 +14,11 @@ readme_from         $fn;
 author              'Toby Inkster <tobyink@cpan.org>';
 license             'perl';
 
-requires 'HTML::HTML5::Parser' => '0.100';
-requires 'HTML::HTML5::Sanity' => '0.100';
-requires 'HTML::HTML5::Writer' => '0.100';
-requires 'XML::LibXML'         => '1.60'; 
+requires 'HTML::HTML5::Parser'  => '0.102';
+requires 'HTML::HTML5::Sanity'  => '0.101';
+requires 'HTML::HTML5::Writer'  => '0.101';
+requires 'HTML::HTML5::Outline' => '0.003';
+requires 'XML::LibXML'          => '1.70'; 
 
 resources(
 	'homepage'   => "http://search.cpan.org/dist/$dist/",

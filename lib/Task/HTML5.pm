@@ -2,7 +2,7 @@ package Task::HTML5;
 
 use 5.008;
 
-our $VERSION = '0.100';
+our $VERSION = '0.101';
 
 1;
 
@@ -14,13 +14,15 @@ Task::HTML5 - install modules for handling HTML5
 
 =head1 VERSION
 
-0.100
+0.101
 
 =head1 DESCRIPTION
 
 This Task installs the following:
 
 =over 4
+
+=item * L<HTML::HTML5::Outline>
 
 =item * L<HTML::HTML5::Parser>
 
@@ -42,7 +44,7 @@ Toby Inkster E<lt>tobyink@cpan.orgE<gt>.
 
 =head1 COPYRIGHT
 
-Copyright 2010 Toby Inkster
+Copyright 2010-2011 Toby Inkster
 
 This library is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

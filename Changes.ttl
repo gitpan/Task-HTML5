@@ -25,8 +25,36 @@ my:v_0-001
 	a               :Version ;
 	dc:issued       "2010-05-26"^^xsd:date ;
 	:revision       "0.001"^^xsd:string ;
-	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.01.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.001.tar.gz> ;
 	rdfs:label      "First Release"@en .
+
+my:v_0-100
+
+	a               :Version ;
+	dc:issued       "2010-06-23"^^xsd:date ;
+	:revision       "0.100"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.100.tar.gz> ;
+	dcs:changeset [
+		dcs:versus my:v_0-001 ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.100."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.100."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.100."@en ]
+		] .
+
+my:v_0-101
+
+	a               :Version ;
+	dc:issued       "2011-01-21"^^xsd:date ;
+	:revision       "0.101"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.101.tar.gz> ;
+	dcs:changeset [
+		dcs:versus my:v_0-001 ;
+		dcs:item   [ rdfs:label "Require XML::LibXML 1.70."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.003."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.102."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.101."@en ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.101."@en ]
+		] .
 
 #############################################################
 
@@ -46,7 +74,7 @@ my:project
 	:tester         toby:i ;
 	:created        "2010-05-26"^^xsd:date ;
 	:license        <http://dev.perl.org/licenses/> ;
-	:release        my:v_0-001 .
+	:release        my:v_0-001 , my:v_0-100 , my:v_0-101 .
 
 #############################################################
 

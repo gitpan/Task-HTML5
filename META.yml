@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.95'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,14 +18,15 @@ no_index:
     - inc
     - t
 requires:
-  HTML::HTML5::Parser: 0.100
-  HTML::HTML5::Sanity: 0.100
-  HTML::HTML5::Writer: 0.100
-  XML::LibXML: 1.60
+  HTML::HTML5::Outline: 0.003
+  HTML::HTML5::Parser: 0.102
+  HTML::HTML5::Sanity: 0.101
+  HTML::HTML5::Writer: 0.101
+  XML::LibXML: 1.70
   perl: 5.8.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Task-HTML5
   homepage: http://search.cpan.org/dist/Task-HTML5/
   license: http://dev.perl.org/licenses/
   repository: http://goddamn.co.uk/viewvc/perlmods/Task-HTML5/
-version: 0.100
+version: 0.101
