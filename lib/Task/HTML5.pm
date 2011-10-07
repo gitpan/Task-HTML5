@@ -2,7 +2,7 @@ package Task::HTML5;
 
 use 5.008;
 
-our $VERSION = '0.101';
+our $VERSION = '0.102';
 
 1;
 
@@ -12,15 +12,13 @@ __END__
 
 Task::HTML5 - install modules for handling HTML5
 
-=head1 VERSION
-
-0.101
-
 =head1 DESCRIPTION
 
 This Task installs the following:
 
 =over 4
+
+=item * L<HTML::HTML5::Entities>
 
 =item * L<HTML::HTML5::Outline>
 

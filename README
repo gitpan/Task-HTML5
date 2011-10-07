@@ -1,11 +1,10 @@
 NAME
     Task::HTML5 - install modules for handling HTML5
 
-VERSION
-    0.101
-
 DESCRIPTION
     This Task installs the following:
+
+    *   HTML::HTML5::Entities
 
     *   HTML::HTML5::Outline
 

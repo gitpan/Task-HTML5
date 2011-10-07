@@ -1,26 +1,35 @@
-############################################################################
-## Changes #################################################################
-############################################################################
-
 Task-HTML5
 ==========
 
 Created:      2010-05-26
-Home page:    <http://search.cpan.org/dist/Task-HTML5/>
+Home page:    <https://metacpan.org/release/Task-HTML5>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Task-HTML5>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
-0.101 [2011-01-21]
+0.102  2011-10-07
+
+ - Require HTML::HTML5::Entities 0.001.
+ - Require HTML::HTML5::Outline 0.004.
+ - Require HTML::HTML5::Parser 0.105.
+ - Require HTML::HTML5::Sanity 0.101.
+ - Require HTML::HTML5::Writer 0.103.
+ - Require XML::LibXML 1.70.
+
+0.101  2011-01-21
+
  - Require HTML::HTML5::Outline 0.003.
  - Require HTML::HTML5::Parser 0.102.
  - Require HTML::HTML5::Sanity 0.101.
  - Require HTML::HTML5::Writer 0.101.
  - Require XML::LibXML 1.70.
 
-0.100 [2010-06-23]
+0.100  2010-06-23
+
  - Require HTML::HTML5::Parser 0.100.
  - Require HTML::HTML5::Sanity 0.100.
  - Require HTML::HTML5::Writer 0.100.
 
-0.001 [2010-05-26] # First Release
+0.001  2010-05-26
+# First Release
+
 
