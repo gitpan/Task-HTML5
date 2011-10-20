@@ -23,9 +23,9 @@ my:v_0-100
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.100.tar.gz> ;
 	dcs:changeset [
 		dcs:versus my:v_0-001 ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.100."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.100."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.100."@en ]
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.100."@en ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.100."@en ; a dcs:Update  ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.100."@en ; a dcs:Update  ]
 		] .
 
 my:project :release my:v_0-101 .
@@ -35,12 +35,12 @@ my:v_0-101
 	:revision       "0.101"^^xsd:string ;
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.101.tar.gz> ;
 	dcs:changeset [
-		dcs:versus my:v_0-001 ;
-		dcs:item   [ rdfs:label "Require XML::LibXML 1.70."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.003."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.102."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.101."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.101."@en ]
+		dcs:versus my:v_0-100 ;
+		dcs:item   [ rdfs:label "Require XML::LibXML 1.70."@en  ; a dcs:Addition ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.003."@en  ; a dcs:Addition ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.102."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.101."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.101."@en  ; a dcs:Update ]
 		] .
 
 my:project :release my:v_0-102 .
@@ -51,10 +51,25 @@ my:v_0-102
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.102.tar.gz> ;
 	dcs:changeset [
 		dcs:versus my:v_0-001 ;
-		dcs:item   [ rdfs:label "Require XML::LibXML 1.70."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Entities 0.001."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.004."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.105."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.101."@en ] ;
-		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.103."@en ]
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Entities 0.001."@en  ; a dcs:Addition ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.004."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.105."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.103."@en  ; a dcs:Update ]
+		] .
+
+my:project :release my:v_0-103 .
+my:v_0-103
+	a               :Version ;
+	dc:issued       "2011-10-20"^^xsd:date ;
+	:revision       "0.103"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Task-HTML5-0.103.tar.gz> ;
+	dcs:changeset [
+		dcs:versus my:v_0-102 ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Outline 0.006."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require XML::LibXML::PrettyPrint 0.001."@en  ; a dcs:Addition ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Builder 0.004."@en  ; a dcs:Addition ] ; 
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Parser 0.107."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Sanity 0.102."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Require HTML::HTML5::Writer 0.104."@en  ; a dcs:Update ] ;
+		dcs:item   [ rdfs:label "Include 'htmltidy' example."@en  ; a dcs:Addition , dcs:Documentation ]
 		] .

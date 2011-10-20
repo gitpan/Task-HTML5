@@ -14,13 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 d60a03eb4fac2f3cc2d955347d6a11b60726ca30 Changes
+SHA1 2eb6e2425c10cd838802caea7b834500b8c7afca Changes
 SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
-SHA1 51234c7cbddc24df75dafcc1cebde426c186ff0b MANIFEST
-SHA1 162309b4fb7e35e5a0f689e6d40bdaafa9bfc641 META.yml
+SHA1 0d94b3d8f055c24033da0343057e2fa1986e1700 MANIFEST
+SHA1 6273006c10b2352aa61481282cd5c58dfc0b6fcf META.yml
 SHA1 5391cc35db658809505db2be59d47aa2f073c376 Makefile.PL
-SHA1 4e961167d3ca7cb13d25b9d858a91459ccc595e9 README
+SHA1 e3245fe43cad726affe6cabd6e71727eebd690a9 README
 SHA1 413833e01ebd02056ac9e789d934b17a0a28f1da TODO
+SHA1 4d751260840693b5d653deaffac12f5c51512d49 examples/htmltidy
 SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
 SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
 SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
@@ -40,15 +41,16 @@ SHA1 4db02ca3854a0d95bf38139e9b714cc85b618189 inc/Module/Package/Dist/RDF.pm
 SHA1 775bd24f2fdbb6dce51a8b5b0cdb01fccfce83c4 inc/Scalar/Util.pm
 SHA1 b1b664983568bf822c327599eb88e223483ae96a inc/Scalar/Util/PP.pm
 SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
-SHA1 68afe4997097a94640ed2244d7d872366f94b64c lib/Task/HTML5.pm
-SHA1 15ac4ccde1d3e1f13442c340c82b17b0db276e70 meta/changes.ttl
+SHA1 abd0f1554ff1ffae4cbb80cbd7887d65434572bd lib/Task/HTML5.pm
+SHA1 554b0a71fcc612b8a20fbd54550552fced00bc49 lib/Task/HTML5/Examples/htmltidy.pod
+SHA1 9968d267ffe817139027d5ae1d3cea2fffeccfa8 meta/changes.ttl
 SHA1 be15b6743c25e9568bc74b70dbcaf9e3428d02c6 meta/doap.ttl
-SHA1 7e956fda6d9b1b3bf4045bfa47607779e1025291 meta/makefile.ttl
+SHA1 059ac3ef8d4a39303b858a2e5419238024aab228 meta/makefile.ttl
 SHA1 0133b6d77fc3e2f0a66d198b5a0f1c7392a4b716 t/00modules.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk6PWxAACgkQzr+BKGoqfTkaNQCgsyMsNuRo7UUC5ngFz6YyWDmv
-XawAoLd+YIn2T5EisLe4F0BmEtwcZS+6
-=Hnil
+iEYEARECAAYFAk6gm14ACgkQzr+BKGoqfTleYACcD+IOgAiySrop8/1WNHb+xgrA
+HoQAoJGFfEkQdMDIffK7z1sERLt6Pdhm
+=/SvF
 -----END PGP SIGNATURE-----

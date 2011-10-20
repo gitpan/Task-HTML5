@@ -1,9 +1,6 @@
 package Task::HTML5;
-
-use 5.008;
-
-our $VERSION = '0.102';
-
+use 5.010;
+our $VERSION = '0.103';
 1;
 
 __END__
@@ -18,6 +15,8 @@ This Task installs the following:
 
 =over 4
 
+=item * L<HTML::HTML5::Builder>
+
 =item * L<HTML::HTML5::Entities>
 
 =item * L<HTML::HTML5::Outline>
@@ -30,9 +29,13 @@ This Task installs the following:
 
 =item * L<XML::LibXML>
 
+=item * L<XML::LibXML::PrettyPrint>
+
 =back
 
 =head1 SEE ALSO
+
+L<Task::HTML5::Examples::htmltidy>.
 
 L<Task>.
 

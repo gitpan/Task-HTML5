@@ -1,4 +1,5 @@
 Changes
+examples/htmltidy
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -19,6 +20,7 @@ inc/Scalar/Util.pm
 inc/Scalar/Util/PP.pm
 inc/YAML/Tiny.pm
 lib/Task/HTML5.pm
+lib/Task/HTML5/Examples/htmltidy.pod
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
